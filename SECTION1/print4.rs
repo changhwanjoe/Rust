@@ -12,6 +12,6 @@ fn main()
 	let arr = [1,2,3];
 	println!("{}", arr[0]); // 1
 	println!("{}", arr);	// error
-	println!("{:?}", arr);
+	println!("{:?}", arr); //배열 전체 내용 출력. 디버깅을 위한 출력
 	println!("{:#?}", arr);	
 }

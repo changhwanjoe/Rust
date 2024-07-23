@@ -7,8 +7,8 @@ fn main()
 	// ❶ assert : "실행 시간에" 값의 유효성 조사
 	// => () 안의 표현식이 거짓일 경우 panic!() 발생
 //	assert!(v1 == v2);
-//	assert_eq!(v1 * 2, 20);
-//	assert_ne!(v1 * 2, 20);
+//	assert_eq!(v1 * 2, 20); //참
+//	assert_ne!(v1 * 2, 20); //참
 
 
 	// ❷ debug_assert : debug 버전에서만 동작

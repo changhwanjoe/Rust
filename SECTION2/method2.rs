@@ -7,5 +7,5 @@ fn main()
 
 
 	// 24와 18의 최대 공약수를 찾고 싶다.
-	println!("{}", 24_u32.rem_euclid(18) );
+	println!("{}", 24_u32.rem_euclid(18) );//6
 }

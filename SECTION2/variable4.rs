@@ -8,7 +8,7 @@ fn main()
 	let v2 = 10;
 	{
 		let v2 = 20;
-		println!("{}", v2); // 20
+		println!("{}", v2); // 20 블럭 빠져나가면 파괴됨 
 	}	
 	println!("{}", v2); 	// 10
 
@@ -22,5 +22,5 @@ fn main()
 //	type int = i32;
 	type Int = i32;
 
-	let v4 : Int = 10;
+	let v4 : Int = 10; // 대문자 권장 
 }

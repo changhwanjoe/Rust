@@ -17,10 +17,10 @@ fn main()
 
 
 // ❷ #[cfg( ... )] attribute
-#[cfg(target_os="linux")]
+#[cfg(target_os="linux")] // 바로 다음 줄에만 적용 
 fn do_work() { println!("linux"); }
 
-#[cfg(not(target_os="linux"))]
+#[cfg(not(target_os="linux"))] // 
 fn do_work() { println!("not linux"); }
 
 

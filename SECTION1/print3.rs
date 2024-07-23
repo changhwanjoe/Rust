@@ -24,7 +24,7 @@ fn main()
 	// ❸ 실수 정밀도
 	let f1 = 3.141592;
 	println!("{}", f1);		// 3.141592
-	println!("{:.3}", f1);	// 3.142
+	println!("{:.3}", f1);	// 3.142 소숫점 3자리 반올림 
 
 	// ❹ "standard library" 문서에서 "std::fmt" 문서 참고
 }

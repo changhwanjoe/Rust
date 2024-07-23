@@ -12,7 +12,7 @@ fn main()
 
 	// ❷ 주의 사항
 //	let v2 = 19;
-//	println!("{}", v2.pow(2));	// error					
+//	println!("{}", v2.pow(2));	// error 타입 없어서 에러 
 
 
 	// ❸ literal 도 메소드 호출가능

@@ -3,9 +3,9 @@ fn main()
 	let v1 = 10;
 
 	// ❶ 변수의 주소 출력
-	println!("{}", v1);
-	println!("{}", &v1);
-	println!("{:p}", &v1);
+	println!("{}", v1); //10
+	println!("{}", &v1); // 10 . 주소가 아닌 레퍼런스
+	println!("{:p}", &v1); //주소 
 
 
 	// ❷ 변수의 메모리 크기
