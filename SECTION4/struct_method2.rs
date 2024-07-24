@@ -23,7 +23,7 @@ fn main()
 {
 	let mut rc = Rect{left:1,top:1, right:10, bottom:10};
 
-	rc.inflate(10, 10);
+	rc.inflate(10, 10); //팽창 
 		// Rect::inflate(&mut rc, 10, 10 );
 
 	println!("{}, {}, {}, {}", rc.left, rc.top, rc.right, rc.bottom);

@@ -10,7 +10,7 @@ fn main()
 	let y = 3;
 
 	let pt1 = Point{x:10, y:20};
-	let pt2 = Point{y:20, x:10}; // ok
+	let pt2 = Point{y:20, x:10}; // ok 순서바꾸기
 //	let pt3 = Point{x:10};		 // error
 	let pt4 = Point{x, y};		 // ok
 	let pt5 = Point{x:30, ..pt1};// ok

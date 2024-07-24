@@ -23,3 +23,4 @@ fn main()
 	println!("{:p}", &r1); // r1자체의 주소
 	println!("{:p}", &*r1);// n의 주소	
 }
+//

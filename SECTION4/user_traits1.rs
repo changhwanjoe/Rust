@@ -16,7 +16,7 @@ trait Shape
 
 impl Shape for Rect
 {
-	fn get_area(&self)->i32 
+	fn get_area(&self)->i32 //재정의 
 	{ 
 		println!("Rect get_area"); 
 		0

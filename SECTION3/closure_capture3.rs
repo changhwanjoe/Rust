@@ -8,7 +8,7 @@ fn main()
 	let f = move || println!("{},{}", n, s);
 
 	println!("{}", n);
-//	println!("{}", s); // error
+//	println!("{}", s); // error. move 가 발생 
 	n = 20;
 
 	f();

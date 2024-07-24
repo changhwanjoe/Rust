@@ -10,7 +10,7 @@ fn main()
 	let score = 30;
 
 	let total = { let report = 30; 
-				  score + report };
+				  score + report }; // 블럭도 표현식 . 정답 60이 나옴 . ; 붙이면 void 됨 
 	
 	println!("{:?}", total);
 

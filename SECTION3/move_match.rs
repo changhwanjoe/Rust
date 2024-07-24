@@ -1,3 +1,4 @@
+//
 fn main()
 {
 	let s = "ABC".to_string();
