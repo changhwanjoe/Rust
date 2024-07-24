@@ -10,8 +10,8 @@ fn main()
 
 	foo();
 
-	let n3 = {3};	
-	let n4 = {3;};  
+	let n3 = {3};	// 블럭을 넣은 표현식
+	let n4 = {3;};  // expression 이 아닌 expression statement
 
 	println!("{:?}", n3); // 3
 	println!("{:?}", n4); // Void ()
